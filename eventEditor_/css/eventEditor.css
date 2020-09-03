@@ -1,0 +1,184 @@
+.view {
+  width: 100%;
+}
+.folder_name{
+background:red;
+}
+.view  span{
+
+color:#fff;
+padding: 8px 15px;
+    border-radius: 5px;
+}
+.view th, .view td{
+border:1px solid #efefef;
+
+}
+.long{
+font-size: 12px;
+    text-align: center;
+    width: 90px;
+	}
+
+.wrapper {
+  position: relative;
+  overflow: auto;
+  border: 1px solid black;
+  white-space: nowrap;
+}
+
+.sticky-col {
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: white;
+}
+
+.first-col {
+  width: 100px;
+  min-width: 100px;
+  max-width: 100px;
+  left: 0px;
+}
+
+.second-col {
+  width: 150px;
+  min-width: 150px;
+  max-width: 150px;
+  left: 100px;
+}
+
+
+
+.tableSample table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border-top: 1px solid grey;
+}
+
+.tableSample td,.tableSample th {
+  margin: 0;
+  border: 1px solid #efefef;
+  white-space: nowrap;
+  border-top-width: 0px;
+}
+
+.tableSample {
+  overflow-x: scroll;
+  overflow-y: visible;
+  padding: 0;
+}
+
+.headcol {
+  position: absolute;
+  width: 5em;
+  left: 0;
+  top: auto;
+  border-top-width: 1px;
+  /*only relevant for first row*/
+  margin-top: -1px;
+  /*compensate for top border*/
+}
+
+.long {
+}
+
+	.center{
+	text-align:center;
+	}
+	.commonBg{
+	 background-size: 62% !important;
+	}
+	
+	@media screen and (max-width: 1024px) {
+	.commonBg{
+	 background-size: cover !important;
+	}
+}
+	.objFit{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+	.roundedImgDiv{
+height: 85%;
+    width: 85%;
+    margin: 0 auto;
+	}
+	.roundedImg{
+display: flex;
+    width: 245px !important;
+    height: 280PX;
+    Object-fit: fill;
+    border-radius: 55%;
+    margin: 0 auto;
+	}
+	
+	.roundedImg{
+	display: flex;
+    width: 75%;
+    height: 280PX;
+    Object-fit: cover;
+    border-radius: 55%;
+    margin: 0 auto;
+	}
+	.eventDetails{
+	font-size: 18px;
+    color: #560005 !important;
+    margin-top: 3% !important;
+    text-align: left;
+	}
+	.textLink{
+	color: #560005 !important;
+	}
+	header{
+    color: #560005;
+    padding: 15px 0px;
+    font-size: 18px;
+	width:100%;
+	}
+	.galleryText{
+	margin-bottom: 2%;
+    font-size: 19px;
+    font-weight: 600;
+	color:#560005;
+	}
+	.centerImg{
+	width:100%;
+	opacity:0.3;
+	}
+	.centerQuote{
+    margin: 0 auto;
+    color: #560005;
+    margin-bottom: 5%;
+	text-align:center;
+	}
+
+	.imgWrap{
+	height: 275px;
+	padding: 1% !important;
+	}
+    * {
+        box-sizing: border-box;
+    }
+	footer{
+	height: 25%;
+    background: #560005;
+    color: #ffc73b;
+    float: left;
+    width: 100%;
+    font-size: 12px;
+    padding: 1% 2%;
+	}
+	.poojaWrap{   
+	margin: 0 auto;
+    display: flex;
+	margin-bottom:0 !important;
+	}
+	.poojaDetails{
+	margin: 4% auto;
+	border: 1px solid #e0af34;
+	}
+	.poojaWrap td,.poojaWrap th{
+	padding: 10px 5px !important;
+	text-align:left !important;
+	}
